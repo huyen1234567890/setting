@@ -3,11 +3,11 @@
     background-color: var(--main_color);
     padding: 40px;
     border-radius: 10px;
-    max-width: 800px;  /* Set width tối đa */
+    max-width: 800px;  
     display: flex;
     justify-content: space-between;
-    align-items: center;  /* Căn giữa các item theo trục dọc */
-    gap: 20px;  /* Khoảng cách giữa avatar và form */
+    align-items: center;  
+    gap: 20px;  
 }
 
 .profile-section {
@@ -76,7 +76,6 @@ button {
     cursor: pointer;
     margin-top: 10px;
     transition: background-color 0.3s;
-    border: 1000px solid none;
 }
 
 button:hover {

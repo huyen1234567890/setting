@@ -21,7 +21,7 @@
     <div class="profile-section">
         
         <div class="avatar-container">
-            <img src="path_to_avatar.jpg" alt="Avatar" id="avatar-preview">
+            <img src="./logo/logo.png" alt="Avatar" id="avatar-preview">
             <label for="avatar" class="change-avatar-button">Đổi ảnh đại diện</label>
             <input type="file" name="avatar" id="avatar" accept="image/*" onchange="previewAvatar()" style="display: none;">
         </div>
@@ -41,7 +41,7 @@
             <label for="new_password">Mật khẩu mới</label>
             <input type="password" name="new_password" id="new_password">
 
-                <button font-size: 20px type="submit">Thay đổi thông tin</button>
+                <button type="submit">Thay đổi thông tin</button>
             </form>
         </div>
     </div>
