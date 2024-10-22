@@ -21,7 +21,7 @@
     <div class="profile-section">
         
         <div class="avatar-container">
-            <img src="./logo/logo.png" alt="Avatar" id="avatar-preview">
+            <img src="./asset/logo/Screenshot 2024-10-02 at 09.37.04.png" alt="Avatar" id="avatar-preview">
             <label for="avatar" class="change-avatar-button">Đổi ảnh đại diện</label>
             <input type="file" name="avatar" id="avatar" accept="image/*" onchange="previewAvatar()" style="display: none;">
         </div>
