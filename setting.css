@@ -1,0 +1,84 @@
+
+.container {
+    background-color: var(--main_color);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;  /* Set width tối đa */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  /* Căn giữa các item theo trục dọc */
+    gap: 20px;  /* Khoảng cách giữa avatar và form */
+}
+
+.profile-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.avatar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.avatar-container img {
+    width: 300px;  
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.change-avatar-button {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: var(--main_color);
+    color: var(--button_color);
+    border: 2px solid var(--button_color); 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.change-avatar-button:hover {
+    background-color: var(--button_color);  
+    color: var(--white_color);  
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;  /* Căn phần form chiếm 60% chiều rộng */
+    gap: 15px;
+}
+
+.form-container label {
+    font-weight: bold;
+    font-size: 20px; 
+    margin-bottom: 5px;
+}
+
+.form-container input {
+    padding: 10px;
+    border: 1px solid var(--gray_color);
+    border-radius: 5px;
+    width: 100%;
+    font-size: 20px; 
+}
+
+button {
+    background-color: var(--button_color);
+    color: var(--white_color);
+    padding: 8px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    border: 1000px solid none;
+}
+
+button:hover {
+    background-color: #45632e  ;
+}
