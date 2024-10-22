@@ -2,16 +2,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+    
+
+    <title>Profile Setting  - Book Review</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/css/main.css">
     <link rel="stylesheet" href="./setting.css">
     <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    
-
-    <title>Profile Setting  - Book Review</title>
-    
 </head>
 
 <body>
@@ -29,17 +29,20 @@
         
         <div class="form-container">
             <form action="update_profile.php" method="POST" enctype="multipart/form-data">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" value="huyenngoc3654238@gmail.com" required>
+                <div class="form-container-2">
 
-            <label for="username">Tên đăng nhập:</label>
-            <input type="text" name="username" id="username" value="Huèn" required>
-
-            <label for="current_password">Mật khẩu hiện tại</label>
-            <input type="password" name="current_password" id="current_password" required>
-
-            <label for="new_password">Mật khẩu mới</label>
-            <input type="password" name="new_password" id="new_password">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" value="huyenngoc3654238@gmail.com" required>
+        
+                    <label for="username">Tên đăng nhập:</label>
+                    <input type="text" name="username" id="username" value="Huèn" required>
+        
+                    <label for="current_password">Mật khẩu hiện tại</label>
+                    <input type="password" name="current_password" id="current_password" required>
+        
+                    <label for="new_password">Mật khẩu mới</label>
+                    <input type="password" name="new_password" id="new_password">
+                </div>
 
                 <button type="submit">Thay đổi thông tin</button>
             </form>
