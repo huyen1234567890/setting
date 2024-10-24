@@ -99,6 +99,3 @@ Thuộc tính:
 Phương thức:
   addBookToTopic($BookID, $TopicID): Thêm sách vào chủ đề.
   removeBookFromTopic($BookID, $TopicID): Xóa sách khỏi chủ đề.
-
-
-  

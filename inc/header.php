@@ -38,7 +38,7 @@
                     <button class="btn btn-outline-success" type="submit">Tìm kiếm</button>
                 </form>
                 <ul class="nav_ul">
-                    <li><a href="#book">Cài đặt</a></li>
+                    <li><a href="./setting.php">Cài đặt</a></li>
                     <!-- <li><a href="#bookreview">Bài review</a></li> -->
                     <!-- <li><a href="#topic">Chủ đề</a></li> -->
                     <li><a class="active" href="./index.php">Trang chủ</a></li>
