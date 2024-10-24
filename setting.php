@@ -20,7 +20,7 @@
 <?php
 session_start();
 
-// include './inc/header.php';
+include './inc/header.php';
 $conn = mysqli_connect("localhost", "root", "", "bookreview");
 
 // Lấy thông tin user_ID từ session
